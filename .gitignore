@@ -11,3 +11,12 @@ node_modules/
 test-results/
 end2end/playwright-report/
 playwright/.cache/
+
+# why weren't these here already?
+Cargo.lock
+
+# tailwind stuff
+package-lock.json
+package.json
+style/output.css
+

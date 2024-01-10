@@ -16,4 +16,5 @@ test:
 #   python3 ./test-data/test.py
 
 tailwind:
+  npm list @catppuccin/tailwindcss > /dev/null || npm install -D @catppuccin/tailwindcss
   npx tailwindcss -i ./input.css -o ./style/output.css --watch
